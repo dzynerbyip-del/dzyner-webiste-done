@@ -67,14 +67,15 @@ export function Header() {
     >
       <div className="mx-auto max-w-7xl px-4 md:px-6">
         <div className={`flex items-center justify-between rounded-full px-4 py-2 md:px-6 md:py-3 transition-all ${scrolled || mega ? "glass-strong" : "bg-transparent"}`}>
-          <Link to="/" className="flex items-center">
+          <Link to="/" className="flex items-center gap-2.5">
             <img
-              src="/logo.png"
+              src="/favicon.png"
               alt="DZYNER"
-              className="h-9 w-auto"
-              width={204}
-              height={48}
+              className="h-9 w-9"
+              width={36}
+              height={36}
             />
+            <span className="font-display text-xl tracking-widest">DZYNER</span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-1">
