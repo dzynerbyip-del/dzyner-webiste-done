@@ -1,0 +1,6 @@
+[build]
+  command = "bun run build"
+  publish = "dist"
+
+# TanStack Start's nitro netlify preset emits functions to .netlify/functions-internal
+# and handles SSR routing automatically.
